@@ -1,0 +1,22 @@
+{
+  "name": "scoresense-omr-backend",
+  "version": "1.0.0",
+  "description": "OMR backend for ScoreSense — PDF/image to MusicXML via Audiveris",
+  "main": "omr-server.js",
+  "scripts": {
+    "start": "node omr-server.js",
+    "dev": "nodemon omr-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
